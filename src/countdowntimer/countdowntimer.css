@@ -1,0 +1,24 @@
+.countdown__timer {
+  font-size: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.two-numbers {
+  width: 2ch;
+}
+
+@media screen and (max-width: 1024px) { 
+  .countdown__timer {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .countdown__timer {
+    font-size: 14px;
+  }
+}
